@@ -1,32 +1,43 @@
-html { font-size: 1.0rem; }
-body { margin:10px; background-color: #000000; color: #fff; }
+body { 
+		background-image: url("../how_to_play/img/TribalSquare.png");
+		background-repeat: repeat;
+		color: #fff;
+}
 i { color: #aaa; }
-img { margin-right: 10px; }
+img { margin: 10px; }
 hr { height: 1px; background-color:white; }
-.help_title { font-size: 2.2rem; font-weight: bold; }
-.help_subtitle { margin-top: 1.3em; font-size: 1.3rem; font-weight: bold; }
+.container {
+	width: 90vw;
+	margin-top: 50px;
+	max-width: 800px;
+	background-color: #000D;
+	border-radius: 15px;
+}
+.help_title {	
+	font-size: 2.2rem;
+	font-weight: bold;
+}
+.help_subtitle {
+	margin-top: 0.6em;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
 
-@media (min-width: 576px){
+@media (min-width: 300px){
+	html { font-size: 0.8rem;}
+	.help_title { font-size: 1.4rem; }
+	.help_subtitle { font-size: 1.1rem; }
+}
+
+@media (min-width: 500px) {
 	html { font-size: 1.0rem;}
-	.help_title { font-size: 2.2rem; }
+	.help_title { font-size: 1.6rem; }
 	.help_subtitle { font-size: 1.3rem; }
 }
 
-@media (min-width: 768px) {
-	html { font-size: 1.2rem;}
-	.help_title { font-size: 1.8rem; }
-	.help_subtitle { font-size: 1.5rem; }
-}
-
-@media (min-width: 992px) {
-	html { font-size: 1.6rem;}
-	.help_title { font-size: 2.2rem; }
-	.help_subtitle { font-size: 1.9rem; }
-}
-
-@media (min-width: 1200px) {
-	html { font-size: 1.8rem;}
-	.help_title { font-size: 2.4rem; }
-	.help_subtitle { font-size: 2.1rem; }
+@media (min-width: 700px) {
+	html { font-size: 1.4rem;}
+	.help_title { font-size: 2.0rem; }
+	.help_subtitle { font-size: 1.7rem; }
 }
 
